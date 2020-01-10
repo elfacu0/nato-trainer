@@ -1,2 +1,2 @@
-# nato trainer
+# Nato trainer
  NATO phonetic alphabet trainer
