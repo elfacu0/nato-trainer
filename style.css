@@ -1,0 +1,96 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #0D0D0D;
+}
+
+.letter {
+    height: 20rem;
+    font-size: 16rem;
+    text-align: center;
+}
+
+.word {
+    display: flex;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18vw;
+}
+
+@media screen and (min-width: 1600px) {
+    .word {
+        font-size: 10vw;
+    }
+}
+
+#userInput {
+    font-size: 1.5rem;
+    background-color: #0D0D0D;
+    border-top-color: #0D0D0D;
+    border-left-color: #0D0D0D;
+    border-right-color: #0D0D0D;
+    border-bottom-color: white;
+    text-align: center;
+    color: white;
+    border-radius: 8%;
+    text-transform: uppercase;
+}
+
+#userInput:focus {
+    border-top-color: white;
+    outline: none;
+}
+#linearMode,#randomMode{
+    cursor: pointer;
+}
+.fill {
+    min-height: 50%;
+    height: auto;
+}
+
+.input {
+    margin-bottom: 2rem;
+}
+
+.score {
+    justify-content: center;
+}
+
+.score>h3 {
+    text-align: center;
+}
+
+.correctAnswer {
+    color: #518C16;
+}
+
+.wrongAnswer {
+    color: red;
+}
+
+.resetCounter {
+    display: inline;
+    text-align: center;
+    font-size: 2rem;
+    transform: translateY(5px);
+    color: #0D0D0D;
+    cursor: pointer;
+}
+
+.appear {
+    color: white;
+    transition: 0.5s;
+    transform: translateY(-5px);
+}
