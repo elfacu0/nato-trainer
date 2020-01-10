@@ -1,0 +1,22 @@
+{
+  "name": "nato-trainer",
+  "version": "1.0.0",
+  "description": "NATO phonetic alphabet trainer",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elfacu0/nato-trainer.git"
+  },
+  "author": "k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elfacu0/nato-trainer/issues"
+  },
+  "homepage": "https://github.com/elfacu0/nato-trainer#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
